@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAVBAR-TOP START */
+.navbar-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 100vw;
+}
+
+.navbar-top .container {
+    display: flex;
+    border-bottom: solid;
+    border-color: #57647c21;
+    height: 6rem;
+    width: 75vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-top .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-top .logo .mattin-lassei {
+    font-size: 30px;
+    font-weight: bold;
+    color: #252525;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1.5rem;
+}
+
+.navbar-top .buttons > button {
+font-size: 17px;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+color: #252525;
+border: none;
+background-color: transparent;
+cursor: pointer;
+margin-left: 5rem;
+}
+
+.navbar-top .buttons > i {
+    font-size: 2rem;
+}
+
+.navbar-top .buttons .try-it-free {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF6803;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
