@@ -4,6 +4,9 @@
 /* font-family: 'Poppins', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 /* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
 body, html {
     margin: 0px;
     padding: 0px;
@@ -44,6 +47,7 @@ body, html {
 .navbar-top .menu > button {
 font-size: 17px;
 font-family: 'Roboto', sans-serif;
+font-weight: 500;
 color: #252525;
 border: none;
 background-color: transparent;
@@ -100,7 +104,7 @@ margin-left: 3rem;
 }
 
 .showcase .showcase-items {
-    margin-top: 9rem;
+    margin-top: 16rem;
     margin-left: 15rem;
     width: 30vw;
     height: 40vh;
@@ -121,14 +125,60 @@ margin-left: 3rem;
 }
 
 .showcase .showcase-items button {
-    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(255,166,46,1) 100%);
+    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(243,60,109,1) 36%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
     border: none;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
     color: #FFFFFF;
     width: 250px;
     height: 60px;
     margin-top: 1rem;
+}
+/* SHOWCASE END */
+
+/* FEATURES START */
+.feautures {
+    margin-top: 25rem;
+    height: 100vh;
+    width: 100vw;
+    border: solid;
+}
+
+.feautures .container {
+    margin-left: 15rem;
+}
+
+.feautures-items h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #252525;
+    line-height: 68px;
+}
+
+.feautures-items p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #57647C;
+    line-height: 30px;
+}
+
+.feautures-items button {
+    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(243,60,109,1) 36%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 250px;
+    height: 60px;
+    margin-top: 1rem;
+}
+
+.feautures-grid {
+    display: grid;
 }
