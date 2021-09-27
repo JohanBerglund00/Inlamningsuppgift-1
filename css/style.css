@@ -220,7 +220,7 @@ margin-left: 3rem;
 
 .pages .gray-background {
     margin-left: 5rem;
-    margin-top: 7rem;
+    margin-top: 9rem;
 }
 
 .pages .pages-items {
@@ -259,5 +259,107 @@ margin-left: 3rem;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 30px;
+    color: #57647C;
+}
+/* PAGES END */
+
+/* CONTACT START */
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact .container {
+    margin-top: -10rem;
+}
+
+.contact .container img {
+    position: relative;
+    z-index: -1;
+    top: 40rem;
+    left: 6rem;
+}
+
+.contact .container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #252525;
+}
+
+.contact .container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #57647C;
+}
+
+.contact .contact-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact-flex .contact-flex-box {
+    line-height: 1rem;
+}
+
+.contact .contact-flex h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #F23779;
+}
+
+.contact .contact-flex p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #57647C;
+}
+
+.contact .contact-us-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+    height: 139px;
+    box-shadow: 0 1px 10px #707070;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 10rem;
+}
+
+.contact .contact-us-box h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    color: #252525;
+}
+
+.contact .contact-us-box button {
+    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(243,60,109,1) 36%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 140px;
+    height: 50px;
+}
+
+.contact .contact-us-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     color: #57647C;
 }
