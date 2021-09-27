@@ -324,11 +324,9 @@ margin-left: 3rem;
     color: #57647C;
 }
 
-.contact .contact-us-box {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 5rem;
-    justify-content: center;
+.contact .contact-us-flex {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     width: 630px;
     height: 139px;
@@ -338,14 +336,22 @@ margin-left: 3rem;
     margin-left: 10rem;
 }
 
-.contact .contact-us-box h1 {
+.contact .contact-us-flex-box {
+    line-height: 1rem;
+}
+
+.contact .contact-us-flex-box p {
+    text-align: left;
+}
+
+.contact .contact-us-flex h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 21px;
     color: #252525;
 }
 
-.contact .contact-us-box button {
+.contact .contact-us-flex button {
     background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(243,60,109,1) 36%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
     border: none;
     border-radius: 5px;
@@ -358,7 +364,7 @@ margin-left: 3rem;
     height: 50px;
 }
 
-.contact .contact-us-box p {
+.contact .contact-us-flex p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #57647C;
