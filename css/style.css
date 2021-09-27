@@ -369,3 +369,80 @@ margin-left: 3rem;
     font-size: 18px;
     color: #57647C;
 }
+/* CONTACT END */
+
+/* BLOG START */
+.blog {
+    width: 100vw;
+    height: 100vh;
+}
+
+.blog .blog-text {
+    text-align: center;
+}
+
+.blog .blog-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #252525;
+    line-height: 60px;
+}
+
+.blog .blog-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #57647C;
+    line-height: 30px;
+    margin-bottom: 5rem;
+}
+
+.blog .blog-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1.5rem;
+    justify-content: center;
+}
+
+.blog .blog-grid .blog-box {
+    width: 370px;
+    height: 565;
+    box-shadow: 0 1px 10px #707070;
+}
+
+.blog .blog-grid .blog-box #blog-date {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FF6803;
+    padding-left: 2rem;
+}
+
+.blog .blog-grid .blog-box h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #252525;
+    line-height: 30px;
+    padding-left: 2rem;
+}
+
+.blog .blog-grid .blog-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #57647C;
+    line-height: 30px;
+    padding-left: 2rem;
+}
+
+.blog .blog-grid .blog-box button {
+    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(243,60,109,1) 36%, rgba(255,104,3,1) 62%, rgba(255,166,46,1) 100%);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 120px;
+    height: 45px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
